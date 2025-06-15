@@ -1,2 +1,73 @@
-# SeleneB
-vendita contenuti digitali
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Selene Bianchi | Contenuti Fotografici</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>📷 Selene Bianchi 🎀</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-sono">Chi Sono</a></li>
+                <li><a href="#prodotti">Contenuti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>🎀 Foto e Contenuti Digitali Esclusivi 📷</h2>
+        <p>Scopri i miei contenuti speciali disponibili su Telegram.</p>
+        <a href="#prodotti" class="btn">Scopri i Contenuti</a>
+    </section>
+
+    <section id="chi-sono" class="about">
+        <h2>Chi Sono</h2>
+        <p>
+            Ciao! Sono Selene, una <strong>fotografa amatoriale</strong> appassionata di ritratti, dettagli e momenti autentici. Creo e vendo <strong>foto e contenuti digitali</strong> attraverso il mio canale <strong>Telegram privato</strong>.
+            Amo condividere bellezza, stile e ispirazione in formato digitale. Ogni mio contenuto è pensato per raccontare emozioni, estetica e autenticità.
+        </p>
+    </section>
+
+    <section id="prodotti" class="products">
+        <h2>📸 Contenuti Disponibili</h2>
+        <div class="product-grid">
+            <div class="product">
+                <h3>Pacchetto Foto "Vintage Mood"</h3>
+                <p>15 scatti artistici con atmosfera retrò, ideali per social o progetti personali.</p>
+                <a href="#" class="btn">Richiedi su Telegram</a>
+            </div>
+            <div class="product">
+                <h3>Contenuti Esclusivi 🎀</h3>
+                <p>Contenuti digitali inediti pubblicati regolarmente sul mio canale Telegram privato.</p>
+                <a href="#" class="btn">Unisciti al Canale</a>
+            </div>
+            <div class="product">
+                <h3>Pacchetto "Soft & Femminile"</h3>
+                <p>10 foto in stile delicato, pastello e romantico.</p>
+                <a href="#" class="btn">Richiedi via Telegram</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatti" class="contact">
+        <h2>Contattami o Iscriviti</h2>
+        <p>Per collaborazioni, richieste o accesso ai contenuti, scrivimi oppure iscriviti alla newsletter.</p>
+        <form>
+            <input type="email" placeholder="La tua email" />
+            <button type="submit">Iscriviti</button>
+        </form>
+        <p class="telegram-link">
+            👉 Oppure visita il mio canale: <a href="https://t.me/tuoCanaleTelegram" target="_blank">t.me/tuoCanaleTelegram</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Selene Bianchi. Tutti i diritti riservati. 🎀</p>
+    </footer>
+</body>
+</html>
