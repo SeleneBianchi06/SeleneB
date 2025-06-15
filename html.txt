@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selene Bianchi | Contenuti Digitali</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selene Bianchi</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chi-sono">Chi Sono</a></li>
+                <li><a href="#prodotti">Prodotti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h2>Contenuti digitali per la tua crescita personale e professionale</h2>
+        <p>Scopri risorse create da Selene Bianchi: ebook, guide, strumenti digitali.</p>
+        <a href="#prodotti" class="btn">Scopri i Prodotti</a>
+    </section>
+
+    <section id="chi-sono" class="about">
+        <h2>Chi Sono</h2>
+        <p>Ciao! Sono Selene, una creatrice di contenuti digitali appassionata di crescita personale, produttività e design. Creo risorse pratiche per aiutarti a raggiungere i tuoi obiettivi.</p>
+    </section>
+
+    <section id="prodotti" class="products">
+        <h2>Prodotti Digitali</h2>
+        <div class="product-grid">
+            <div class="product">
+                <h3>Ebook: "Organizzati e Felici"</h3>
+                <p>Una guida per gestire tempo, energia e obiettivi.</p>
+                <a href="#" class="btn">Acquista ora</a>
+            </div>
+            <div class="product">
+                <h3>Preset Lightroom</h3>
+                <p>Pacchetto di preset per migliorare le tue foto in un click.</p>
+                <a href="#" class="btn">Scopri di più</a>
+            </div>
+            <div class="product">
+                <h3>Mini Corso Notion</h3>
+                <p>Impara a organizzare la tua vita digitale con Notion.</p>
+                <a href="#" class="btn">Inizia ora</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatti" class="contact">
+        <h2>Contattami</h2>
+        <p>Hai domande o richieste personalizzate? Scrivimi o iscriviti alla newsletter.</p>
+        <form>
+            <input type="email" placeholder="La tua email">
+            <button type="submit">Iscriviti</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Selene Bianchi. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
